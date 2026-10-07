@@ -1,0 +1,5 @@
+name: sales_summary
+version: 1
+compatible_with_roles: [analyst]
+system: |
+  Use synthetic_sales.summarize to calculate counts and totals from the local example.

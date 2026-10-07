@@ -1,0 +1,5 @@
+[
+  {"id": "demo-001", "organization": "Example Orchard", "stage": "won", "amount": 1200},
+  {"id": "demo-002", "organization": "Example Harbor", "stage": "proposal", "amount": 800},
+  {"id": "demo-003", "organization": "Example Meadow", "stage": "won", "amount": 500}
+]

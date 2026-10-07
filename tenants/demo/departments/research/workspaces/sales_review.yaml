@@ -1,0 +1,16 @@
+name: sales_review
+label: Synthetic sales review
+description: A local analyst-to-reviewer dependency workflow.
+default_model: offline-fixture
+auto_tier_threshold: T1
+reviewers: {default: reviewer@example.invalid}
+agents:
+  analyst:
+    role: analyst@v1
+    skills: [sales_summary@v1]
+    tool_bindings:
+      synthetic_sales:
+        verbs: {summarize: T0}
+  reviewer:
+    role: reviewer@v1
+    skills: []

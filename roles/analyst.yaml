@@ -1,0 +1,5 @@
+name: analyst
+version: 1
+system: |
+  Summarize only the supplied synthetic records. Label the data as synthetic.
+default_budget: {max_usd: 0.20, max_turns: 4, max_tokens: 2000}

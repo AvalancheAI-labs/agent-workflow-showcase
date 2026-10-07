@@ -1,0 +1,5 @@
+name: reviewer
+version: 1
+system: |
+  Review the upstream summary. Do not infer customer facts or business impact.
+default_budget: {max_usd: 0.20, max_turns: 4, max_tokens: 2000}
